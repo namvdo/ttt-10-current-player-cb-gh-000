@@ -7,11 +7,4 @@ for i in board
   end
 end
   return counter
-  def current_player(board)
-    if counter % 2 == 0
-      current_player("Y")
-    else
-      current_player("X")
-    end
-  end
 end
