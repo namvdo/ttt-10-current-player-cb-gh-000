@@ -13,6 +13,6 @@ def current_player(board)
   if current_move % 2 == 0
     return "X"
   else
-    return "Y"
+    return "O"
   end
 end
