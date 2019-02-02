@@ -5,6 +5,7 @@ for i in board
   if i == "X" || i == "O"
     counter += 1
   end
-  return counter
 end
+  return counter
+
 end
