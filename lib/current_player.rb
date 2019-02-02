@@ -7,5 +7,4 @@ for i in board
   end
 end
   return counter
-
 end
