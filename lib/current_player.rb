@@ -8,7 +8,7 @@ for i in board
 end
   return counter
   def current_player(board)
-    if counter % 2 == 0 
+    if counter % 2 == 0
       return "Y"
     else
       return "X"
