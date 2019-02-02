@@ -9,9 +9,9 @@ end
   return counter
   def current_player(board)
     if counter % 2 == 0
-      return "Y"
+      current_player("Y")
     else
-      return "X"
+      current_player("X")
     end
   end
 end
