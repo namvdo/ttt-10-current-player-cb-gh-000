@@ -8,10 +8,8 @@ for i in board
 end
   return counter
   def current_player(board)
-    if counter == 1
-      return "X"
-    elsif counter % 2 == 0
-      return "O"
+    if counter % 2 == 0 
+      return "Y"
     else
       return "X"
     end
