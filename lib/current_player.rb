@@ -7,11 +7,12 @@ for i in board
   end
 end
   return counter
+  def current_player(board)
+    if counter % 2 == 0
+      puts "X"
+    else
+      puts "Y"
+    end
+  end
 end
-def current_player(board)
-  if counter % 2 == 0
-    puts "X"
-  else
-    puts "Y"
-end
-end
+
