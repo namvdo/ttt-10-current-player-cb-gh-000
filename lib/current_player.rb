@@ -10,10 +10,11 @@ end
 end
 def current_player(board)
   def turn_count(board)
-    if counter % 2 == 0
+    if turn_count(counter) == 0
       puts "Y"
     else
       puts "X"
     end
   end
 end
+  
