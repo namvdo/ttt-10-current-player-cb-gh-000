@@ -1,10 +1,11 @@
 require_relative '../spec/current_player_spec.rb'
 def turn_count(board)
-count = 0
+counter = 0
 for i in board
   if i == "X" || i == "O"
-    count += 1
+    counter += 1
   end
+  return counter
 end
 end
 
