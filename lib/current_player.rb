@@ -14,5 +14,7 @@ def current_player(board)
     return "X"
   elsif current_move % 2 != 0
     return "Y"
+  else
+    nil
   end
 end
