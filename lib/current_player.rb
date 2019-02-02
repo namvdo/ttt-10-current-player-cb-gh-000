@@ -8,5 +8,3 @@ for i in board
   return counter
 end
 end
-
-turn_count(["O", " ", " ", " ", "X", " ", " ", " ", "X"])
